@@ -1,8 +1,13 @@
-- NotionNext Blog
+- NotionNext Blog, 具体参考 [文档](https://docs.tangly1024.com/article/latest)
+
 - Forked from [tangly1024/NotionNext](https://github.com/tangly1024/NotionNext)
-- 此仓库对应服务器主站 : https://www.dalechu.cn/ 和 Vercel 站 https://for.epicurus.fun/
+
+- 此仓库对应服务器主站 : https://www.dalechu.cn/ 
+
 - [试验仓库](https://github.com/Dalecuc/NotionNext) 对应 Vercel 镜像站 : https://www.epicurus.fun
+
 ---
+
 <br/>
 
 <p align="center">
@@ -14,10 +19,15 @@ Debian 安装 docker :
 apt update && apt install -y docker.io docker-compose jq
 ```
 
-docker 换源, 自行写入最新可用镜像 :
+docker 换源
 ```shell
 vim /etc/docker/daemon.json
+
+# 自行写入最新可用镜像
+
+systemctl daemon-reload && systemctl restart docker
 ```
+
 
 
 <br/>
