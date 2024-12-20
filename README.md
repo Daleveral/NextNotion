@@ -1,6 +1,7 @@
-- NotionNext Blog, 具体参考 [文档](https://docs.tangly1024.com/article/latest)
 
-- Forked from [tangly1024/NotionNext](https://github.com/tangly1024/NotionNext)
+- Based on [tangly1024/NotionNext](https://github.com/tangly1024/NotionNext)
+
+- [NotionNext Blog 文档](https://docs.tangly1024.com/article/latest)
 
 - 此仓库对应服务器主站 : https://www.dalechu.cn/ 
 
@@ -22,9 +23,8 @@ apt update && apt install -y docker.io docker-compose jq
 docker 换源
 ```shell
 vim /etc/docker/daemon.json
-
-# 自行写入最新可用镜像
-
+```
+```shell
 systemctl daemon-reload && systemctl restart docker
 ```
 
@@ -69,7 +69,7 @@ docker run --name NotionNext -d -p=3000:3000 notionnext:latest
 
 如果要指定环境变量 NOTION_PAGE_ID :
 ```shell
-docker run --name NotionNext -d -p 3000:3000 -e NOTION_PAGE_ID=_ID_STR_ notionnext:latest
+docker run --name NotionNext -d -p 3000:3000 -e NOTION_PAGE_ID=MY-ID-STR notionnext:latest
 ```
 
 <br/>
