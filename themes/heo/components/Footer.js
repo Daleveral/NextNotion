@@ -28,24 +28,29 @@ const Footer = ({ title }) => {
         id='footer-bottom'
         className='w-full h-20 flex flex-col p-3 lg:flex-row justify-between px-6 items-center bg-[#f1f3f7] dark:bg-[#21232A] border-t dark:border-t-[#3D3D3F]'>
         <div id='footer-bottom-left'>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          NotionNext {siteConfig('VERSION')} <i className='fas fa-copyright' />{' '}
-          2023 - 2024 @ {' '}
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+          <a href= "https://docs.tangly1024.com/article/latest" target='_blank' >
+          NotionNext {siteConfig('VERSION')} 
+          </a>
+
+          <i className='fas fa-copyright' />{' '}
+
+          2023 - 2025 @ {' '}
           <a
             href={siteConfig('LINK')}
             className='underline font-bold dark:text-gray-300 '>
             {siteConfig('AUTHOR')}
           </a>
 
-          {/* &nbsp;&nbsp;&nbsp;
-          <a href="https://beian.miit.gov.cn/" target="_blank">皖ICP备2024057778号-1</a> */}
+          {/* &nbsp;&nbsp;&nbsp; <a href="https://beian.miit.gov.cn/" target="_blank">皖ICP备2024057778号-1</a> */}
         </div>
 
         <div id='footer-bottom-right'>
           {siteConfig('BEI_AN') && (
             <>
               <i className='fas fa-shield-alt' />{' '}
-              <a href='https://beian.miit.gov.cn/' className='mr-2'>
+              <a href='https://beian.miit.gov.cn/' target="_blank" className='mr-2'>
                 {siteConfig('BEI_AN')}
               </a>
             </>
