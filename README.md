@@ -3,9 +3,11 @@
 
 - [nextnotion Blog 文档](https://docs.tangly1024.com/article/latest)
 
-- 此仓库对应服务器主站 : https://www.dalechu.cn/ 
+- 此仓库对应服务器主站 : **https://www.dalechu.cn/**  
 
-- [试验仓库](https://github.com/Dalecuc/nextnotion) 对应 Vercel 镜像站 : https://www.epicurus.fun
+- Vercel 镜像 : https://for.epicurus.fun
+
+- [试验仓库](https://github.com/Dalecuc/nextnotion), 此仓库的更新晚于试验仓库
 
 ---
 
@@ -32,7 +34,7 @@ systemctl daemon-reload && systemctl restart docker
 
 <br/>
 
-拉取 [我的 nextnotion 镜像](https://github.com/daleveral/nextnotion/pkgs/container/nextnotion) :
+拉取 [nextnotion 镜像](https://github.com/daleveral/nextnotion/pkgs/container/nextnotion), 体积约 200MB :
 
 常规 : 
 
@@ -71,6 +73,32 @@ docker run --name nextnotion -d -p=3000:3000 nextnotion:latest
 ```shell
 docker run --name nextnotion -d -p 3000:3000 -e NOTION_PAGE_ID=MY-ID-STR nextnotion:latest
 ```
+
+<br/>
+<br/>
+
+
+---
+
+<br/>
+
+<p align="center"> <b>对 NotionNext 的更改 </b> </p>
+
+- Aplayer 音乐播放器 : 
+    - 歌单放置在单独的 [musiclist.js](./musiclist.js) 文件中
+    - 使用修改后的 aplayer 相关 [css](https://jsd.onmicrosoft.cn/gh/Daleveral/csslivb/cssv3.css) 和 [js](https://jsd.onmicrosoft.cn/gh/Daleveral/csslivb/jsv2.js) 来美化播放器
+
+- Heo 主题 :
+    - 外链都在新标签页打开
+    - "最新发布" 的文章列表以发布日期排列, 而非更新日期
+    - 首页斜向滚动的技能图标更改了一部分
+    - 首页自定义的文字、标语、链接等
+
+- 文章里的所有链接都在新标签页打开, 而非当前标签页
+
+- 删去了部分主题, 保留下来 8 个
+
+- 基于 [NotionNext](https://docs.tangly1024.com/article/latest)  4.6 ~ 4.7 之间的版本, 会选择性地同步上游的更新
 
 <br/>
 <br/>
