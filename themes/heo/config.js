@@ -113,7 +113,7 @@ const CONFIG = {
   HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
   HEO_SOCIAL_CARD_TITLE_1: 'After long years',
   HEO_SOCIAL_CARD_TITLE_2: 'How should i greet thee',
-  HEO_SOCIAL_CARD_TITLE_3: 'NotionNext 开源项目, 搭建你的个人网页 ~ ',
+  HEO_SOCIAL_CARD_TITLE_3: '基于 NotionNext 搭建你的个人网页 ~ ',
   HEO_SOCIAL_CARD_URL: 'https://docs.tangly1024.com/about',
 
   // *****  以下配置无效，只是预留开发 ****

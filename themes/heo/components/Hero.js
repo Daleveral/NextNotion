@@ -97,7 +97,7 @@ function Banner(props) {
         id='banner-cover'
         style={{ backdropFilter: 'blur(15px)' }}
         className={
-          'rounded-xl overflow-hidden opacity-0 group-hover:opacity-100 duration-300 transition-all bg-[#4259efdd] dark:bg-[#dca846] dark:text-white cursor-pointer absolute w-full h-full top-0 flex justify-start items-center'
+          'rounded-xl overflow-hidden opacity-0 group-hover:opacity-100 duration-300 transition-all bg-[#4259efdd] dark:bg-[#262d8b] dark:text-white cursor-pointer absolute w-full h-full top-0 flex justify-start items-center'
         }>
         <div className='ml-12 -translate-x-32 group-hover:translate-x-0 duration-300 transition-all ease-in'>
           <div className='text-7xl text-white font-extrabold'>随便逛逛</div>
@@ -112,7 +112,7 @@ function Banner(props) {
 
 /**
  * 图标滚动标签组
- * 英雄区左上角banner条中斜向滚动的图标
+ * 英雄区左上角 banner 条中斜向滚动的图标
  */
 function TagsGroupBar() {
   const groupIcons = siteConfig('HEO_GROUP_ICONS', null, CONFIG).concat(
