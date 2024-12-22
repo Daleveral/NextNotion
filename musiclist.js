@@ -61,12 +61,12 @@ const MUSIC_AUDIO_LIST = // Aplayer 歌单
         url: 'http://music.163.com/song/media/outer/url?id=29470947.mp3',
         cover: '/aplayer.png'
   },
-  {
-        name: 'Yesterday Once More',
-        artist: 'Carpenters',
-        url: 'http://music.163.com/song/media/outer/url?id=3986241.mp3',
-        cover: '/aplayer.png'
-  },
+//   {
+//         name: 'Yesterday Once More',
+//         artist: 'Carpenters',
+//         url: 'http://music.163.com/song/media/outer/url?id=3986241.mp3',
+//         cover: '/aplayer.png'
+//   },
   {
         name: "My Love",
         artist: 'Westlife',
@@ -115,12 +115,12 @@ const MUSIC_AUDIO_LIST = // Aplayer 歌单
         url: 'http://music.163.com/song/media/outer/url?id=28329964.mp3',
         cover: '/aplayer.png'
   },
-  {
-        name: 'The Nights',
-        artist: 'Avicii',
-        url: 'http://music.163.com/song/media/outer/url?id=1826923389.mp3',
-        cover: '/aplayer.png'
-  },
+//   {
+//         name: 'The Nights',
+//         artist: 'Avicii',
+//         url: 'http://music.163.com/song/media/outer/url?id=1826923389.mp3',
+//         cover: '/aplayer.png'
+//   },
   {
         name: 'That Girl',
         artist: 'Olly Murs',
@@ -133,12 +133,12 @@ const MUSIC_AUDIO_LIST = // Aplayer 歌单
         url: 'http://music.163.com/song/media/outer/url?id=27937466.mp3',
         cover: '/aplayer.png'
   },
-  {
-        name: 'You Raise Me Up',
-        artist: 'Westlife',
-        url: 'http://music.163.com/song/media/outer/url?id=20707713.mp3',
-        cover: '/aplayer.png'
-  },
+//   {
+//         name: 'You Raise Me Up',
+//         artist: 'Westlife',
+//         url: 'http://music.163.com/song/media/outer/url?id=20707713.mp3',
+//         cover: '/aplayer.png'
+//   },
   {
         name: 'Mr.Moustafa',
         artist: 'Alexandre Desplat',
@@ -159,8 +159,8 @@ const MUSIC_AUDIO_LIST = // Aplayer 歌单
   },
   {
         name: 'The Saltwater Room',
-        artist: 'Owl City',
-        url: 'http://music.163.com/song/media/outer/url?id=1807828.mp3',
+        artist: 'Owl City,Breanne Düren',
+        url: 'http://music.163.com/song/media/outer/url?id=1807865.mp3',
         cover: '/aplayer.png'
   },
   {
@@ -169,12 +169,12 @@ const MUSIC_AUDIO_LIST = // Aplayer 歌单
         url: 'http://music.163.com/song/media/outer/url?id=1210496.mp3',
         cover: '/aplayer.png'
   },
-  {
-        name: 'NEW BOY',
-        artist: '朴树',
-        url: 'http://music.163.com/song/media/outer/url?id=28996919.mp3',
-        cover: '/aplayer.png'
-  },
+//   {
+//         name: 'NEW BOY',
+//         artist: '朴树',
+//         url: 'http://music.163.com/song/media/outer/url?id=28996919.mp3',
+//         cover: '/aplayer.png'
+//   },
   {
         name: 'Take Me Home Country Roads',
         artist: 'John Denver',
@@ -259,24 +259,24 @@ const MUSIC_AUDIO_LIST = // Aplayer 歌单
         url: 'http://music.163.com/song/media/outer/url?id=5237863.mp3',
         cover: '/aplayer.png'
   },
-  {
-        name: '起风了',
-        artist: '买辣椒也用券',
-        url: 'http://music.163.com/song/media/outer/url?id=1330348068.mp3',
-        cover: '/aplayer.png'
-  },
+//   {
+//         name: '起风了',
+//         artist: '买辣椒也用券',
+//         url: 'http://music.163.com/song/media/outer/url?id=1330348068.mp3',
+//         cover: '/aplayer.png'
+//   },
   {
         name: '小城大事',
         artist: '杨千嬅',
         url: 'http://music.163.com/song/media/outer/url?id=1357379611.mp3',
         cover: '/aplayer.png'
   },
-  {
-        name: '富士山下',
-        artist: '陈奕迅',
-        url: 'http://music.163.com/song/media/outer/url?id=1851228561.mp3',
-        cover: '/aplayer.png'
-  },
+//   {
+//         name: '富士山下',
+//         artist: '陈奕迅',
+//         url: 'http://music.163.com/song/media/outer/url?id=1851228561.mp3',
+//         cover: '/aplayer.png'
+//   },
   {
         name: 'Here with You',
         artist: 'Asher Monroe',
@@ -307,12 +307,12 @@ const MUSIC_AUDIO_LIST = // Aplayer 歌单
         url: 'http://music.163.com/song/media/outer/url?id=26807310.mp3',
         cover: '/aplayer.png'
   },
-  {
-        name: '最佳损友',
-        artist: '陈奕迅',
-        url: 'http://music.163.com/song/media/outer/url?id=65800.mp3',
-        cover: '/aplayer.png'
-  },
+//   {
+//         name: '最佳损友',
+//         artist: '陈奕迅',
+//         url: 'http://music.163.com/song/media/outer/url?id=65800.mp3',
+//         cover: '/aplayer.png'
+//   },
   {
         name: '理想三旬',
         artist: '陈鸿宇',
@@ -325,30 +325,30 @@ const MUSIC_AUDIO_LIST = // Aplayer 歌单
         url: 'http://music.163.com/song/media/outer/url?id=458245372.mp3', 
         cover: '/aplayer.png'
   },
-  {
-        name: 'PLANET', 
-        artist: 'ラムジ',
-        url: 'http://music.163.com/song/media/outer/url?id=812400.mp3', 
-        cover: '/aplayer.png'
-  },
+//   {
+//         name: 'PLANET', 
+//         artist: 'ラムジ',
+//         url: 'http://music.163.com/song/media/outer/url?id=812400.mp3', 
+//         cover: '/aplayer.png'
+//   },
   {
         name: '凤凰花开的路口',
         artist: '林志炫',
         url: 'http://music.163.com/song/media/outer/url?id=109734.mp3',
         cover: '/aplayer.png'
   },
-  {
-        name: '好久不见',
-        artist: '陈奕迅',
-        url: 'http://music.163.com/song/media/outer/url?id=65538.mp3',
-        cover: '/aplayer.png'
-  },
-  {
-        name: '愿得一人心',
-        artist: '李行亮',
-        url: 'http://music.163.com/song/media/outer/url?id=25731646.mp3',
-        cover: '/aplayer.png'
-  },
+//   {
+//         name: '好久不见',
+//         artist: '陈奕迅',
+//         url: 'http://music.163.com/song/media/outer/url?id=65538.mp3',
+//         cover: '/aplayer.png'
+//   },
+//   {
+//         name: '愿得一人心',
+//         artist: '李行亮',
+//         url: 'http://music.163.com/song/media/outer/url?id=25731646.mp3',
+//         cover: '/aplayer.png'
+//   },
   {
         name:  '七月上',
         artist: 'Jam',
@@ -361,18 +361,18 @@ const MUSIC_AUDIO_LIST = // Aplayer 歌单
         url: 'http://music.163.com/song/media/outer/url?id=1859327.mp3',
         cover: '/aplayer.png'
   },   
-  {
-        name: '光阴的故事',
-        artist: '罗大佑',
-        url: 'http://music.163.com/song/media/outer/url?id=109545.mp3',
-        cover: '/aplayer.png'
-  },
-  {
-        name: 'K歌之王',
-        artist: '陈奕迅',
-        url: 'http://music.163.com/song/media/outer/url?id=1897928899.mp3',
-        cover: '/aplayer.png'
-  },
+//   {
+//         name: '光阴的故事',
+//         artist: '罗大佑',
+//         url: 'http://music.163.com/song/media/outer/url?id=109545.mp3',
+//         cover: '/aplayer.png'
+//   },
+//   {
+//         name: 'K歌之王',
+//         artist: '陈奕迅',
+//         url: 'http://music.163.com/song/media/outer/url?id=1897928899.mp3',
+//         cover: '/aplayer.png'
+//   },
 
   {
         name: 'Last First Kiss',
@@ -394,12 +394,12 @@ const MUSIC_AUDIO_LIST = // Aplayer 歌单
         cover: '/aplayer.png'
   },
 
-  {
-        name: 'Look At Me Now',
-        artist: 'Charlie Puth',
-        url: 'http://music.163.com/song/media/outer/url?id=28188171.mp3',
-        cover: '/aplayer.png'
-  },
+//   {
+//         name: 'Look At Me Now',
+//         artist: 'Charlie Puth',
+//         url: 'http://music.163.com/song/media/outer/url?id=28188171.mp3',
+//         cover: '/aplayer.png'
+//   },
   {
         name: 'Brought Up That Way',
         artist: 'Taylor Swift',
@@ -409,7 +409,7 @@ const MUSIC_AUDIO_LIST = // Aplayer 歌单
   {
         name: 'Demons',
         artist: 'Imagine Dragons',
-        url: 'http://music.163.com/song/media/outer/url?id=19945727.mp3',
+        url: 'http://music.163.com/song/media/outer/url?id=1832581073.mp3',
         cover: '/aplayer.png'
   },
   {
@@ -419,16 +419,16 @@ const MUSIC_AUDIO_LIST = // Aplayer 歌单
         cover: '/aplayer.png'
   },
 
-  {
-        name: 'Bones',
-        artist: 'Imagine Dragons',
-        url: 'http://music.163.com/song/media/outer/url?id=1927389937.mp3',
-        cover: '/aplayer.png'
-  },
+//   {
+//         name: 'Bones',
+//         artist: 'Imagine Dragons',
+//         url: 'http://music.163.com/song/media/outer/url?id=1927389937.mp3',
+//         cover: '/aplayer.png'
+//   },
   {
         name: '东方之珠',
         artist: '罗大佑',
-        url: 'http://music.163.com/song/media/outer/url?id=108653.mp3',
+        url: 'http://music.163.com/song/media/outer/url?id=109130.mp3',
         cover: '/aplayer.png'
   },
   {
@@ -450,11 +450,17 @@ const MUSIC_AUDIO_LIST = // Aplayer 歌单
         cover: '/aplayer.png'
   },
   {
-        name: 'The Spectre',
-        artist: 'Alan Walker',
-        url: 'http://music.163.com/song/media/outer/url?id=1398324033.mp3',
+        name: '爸爸妈妈',
+        artist: '李荣浩',
+        url: 'http://music.163.com/song/media/outer/url?id=407450223.mp3',
         cover: '/aplayer.png'
   }
+//   {
+//         name: 'The Spectre',
+//         artist: 'Alan Walker',
+//         url: 'http://music.163.com/song/media/outer/url?id=1398324033.mp3',
+//         cover: '/aplayer.png'
+//   }
    
 ]
 

@@ -23,12 +23,12 @@ const Footer = ({ title }) => {
 
       <br />
 
-      {/* 底部页面信息 */}
+      {/* 底部页面信息, 那就到这吧, 2024,12,22,12:16 */}
       <div
         id='footer-bottom'
         className='w-full h-16 flex flex-col p-3 lg:flex-row justify-between px-6 items-center bg-[#f1f3f7] dark:bg-[#21232A] border-t dark:border-t-[#3D3D3F]'>
         <div id='footer-bottom-left'>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
           <a href= "https://docs.tangly1024.com/article/latest" target='_blank' >
           NotionNext {siteConfig('VERSION')} 
