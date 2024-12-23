@@ -1,7 +1,7 @@
 
 - Forked from [tangly1024/nextnotion](https://github.com/tangly1024/nextnotion)
 
-- [nextnotion Blog 文档](https://docs.tangly1024.com/article/latest)
+- [NotionNext 文档](https://docs.tangly1024.com/article/latest)
 
 - 此仓库对应服务器主站 : **https://www.dalechu.cn/**  
 
@@ -35,14 +35,6 @@ systemctl daemon-reload && systemctl restart docker
 <br/>
 
 拉取 [nextnotion 镜像](https://github.com/daleveral/nextnotion/pkgs/container/nextnotion), 体积约 200MB :
-
-常规 : 
-
-```shell
-docker pull ghcr.io/daleveral/nextnotion:main  
-```
-
-加速镜像 : 
 
 ```shell
 docker pull ghcr.linkos.org/daleveral/nextnotion:main
@@ -92,6 +84,7 @@ docker run --name nextnotion -d -p 3000:3000 -e NOTION_PAGE_ID=MY-ID-STR nextnot
     - 外链都在新标签页打开
     - "最新发布" 的文章列表以发布日期排列, 而非更新日期
     - 首页斜向滚动的技能图标更改了一部分
+    - 更改暗色模式一些组件的配色
     - 首页自定义的文字、标语、链接等
 
 - 文章里的所有链接都在新标签页打开, 而非当前标签页

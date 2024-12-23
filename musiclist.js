@@ -86,6 +86,12 @@ const MUSIC_AUDIO_LIST = // Aplayer 歌单
         cover: '/aplayer.png'
   },
   {
+        name: 'Annies Wonderland',
+        artist: 'Bandari',
+        url: 'http://music.163.com/song/media/outer/url?id=3949477.mp3',
+        cover: '/aplayer.png'
+  },
+  {
         name: 'In My Life',
         artist: 'The Beatles',
         url: 'http://music.163.com/song/media/outer/url?id=1476058.mp3',

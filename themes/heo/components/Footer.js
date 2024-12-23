@@ -31,7 +31,8 @@ const Footer = ({ title }) => {
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
           <a href= "https://docs.tangly1024.com/article/latest" target='_blank' >
-          NotionNext {siteConfig('VERSION')} 
+          NotionNext
+          {/* {siteConfig('VERSION')}  */}
           </a>
 
           {' '}<i className='fas fa-copyright' />{' '}
