@@ -94,7 +94,7 @@ const LayoutBase = props => {
       className={`${siteConfig('FONT_STYLE')} bg-[#f7f9fe] dark:bg-[#18171d] h-full min-h-screen flex flex-col scroll-smooth`}>
       <Style />
 
-      {/* 顶部嵌入 导航栏，首页放hero，文章页放文章详情 */}
+      {/* 顶部嵌入 导航栏，首页放 hero，文章页放文章详情 */}
       {headerSlot}
 
       {/* 主区块 */}
