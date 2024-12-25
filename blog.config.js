@@ -36,8 +36,8 @@ const BLOG =
   BEI_AN: process.env.NEXT_PUBLIC_BEI_AN || '皖ICP备2024057778号-1', // 备案号 
 
   // 社交链接，不需要可留空白
-  CONTACT_EMAIL: process.env.NEXT_PUBLIC_CONTACT_EMAIL || '', // 邮箱
-  CONTACT_WEIBO: process.env.NEXT_PUBLIC_CONTACT_WEIBO || '', // 微博
+  CONTACT_EMAIL: process.env.NEXT_PUBLIC_CONTACT_EMAIL || 'hi@dalechu.cn', // 邮箱
+  CONTACT_WEIBO: process.env.NEXT_PUBLIC_CONTACT_WEIBO || 'https://mastodon.social/@ar1stophanes', // 微博 ( mastodon )
   CONTACT_TWITTER: process.env.NEXT_PUBLIC_CONTACT_TWITTER || '', //  twitter 
   CONTACT_GITHUB: process.env.NEXT_PUBLIC_CONTACT_GITHUB || 'https://github.com/Daleveral', 
   CONTACT_TELEGRAM: process.env.NEXT_PUBLIC_CONTACT_TELEGRAM || '', //  telegram 
