@@ -1,5 +1,5 @@
 
-- Forked from [tangly1024/nextnotion](https://github.com/tangly1024/nextnotion)
+- Forked from [tangly1024/nextnotion](https://github.com/tangly1024/notionnext)
 
 - [NotionNext 文档](https://docs.tangly1024.com/article/latest)
 
@@ -7,14 +7,14 @@
 
 - Vercel 镜像 : https://for.epicurus.fun
 
-- [试验仓库](https://github.com/Dalecuc/nextnotion), 此仓库的更新晚于试验仓库
+- [试验仓库](https://github.com/Dalecuc/nextnotion), 一些新功能会在其中测试
 
 ---
 
 <br/>
 
 <p align="center">
-    <b>在 Docker 上部署</b>
+    <b>用 Docker 部署</b>
 </p>
 
 Debian 安装 docker :
@@ -61,7 +61,7 @@ docker images
 docker run --name nextnotion -d -p=3000:3000 nextnotion:latest 
 ```
 
-如果要指定环境变量 NOTION_PAGE_ID :
+运行容器 ( 将 MY-ID-STR 替换成自己的 NOTION_PAGE_ID ) :
 ```shell
 docker run --name nextnotion -d -p 3000:3000 -e NOTION_PAGE_ID=MY-ID-STR nextnotion:latest
 ```
@@ -88,6 +88,10 @@ docker run --name nextnotion -d -p 3000:3000 -e NOTION_PAGE_ID=MY-ID-STR nextnot
     - 首页自定义的文字、标语、链接等
 
 - 文章里的所有链接都在新标签页打开, 而非当前标签页
+
+- 解决了 Artalk 的两处 Bug
+    - 使用最新版本的 js / css 引用
+    - 明暗模式切换时, 修复显示异常问题
 
 - 删去了部分主题, 保留下来 8 个
 
