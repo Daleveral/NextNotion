@@ -1,5 +1,5 @@
 
-- Forked from [tangly1024/nextnotion](https://github.com/tangly1024/notionnext)
+- Forked from [tangly1024/notionnext](https://github.com/tangly1024/notionnext)
 
 - [NotionNext 文档](https://docs.tangly1024.com/article/latest)
 
@@ -7,7 +7,7 @@
 
 - Vercel 镜像 : https://for.epicurus.fun
 
-- [试验仓库](https://github.com/Dalecuc/nextnotion), 一些新功能会在其中测试
+- [试验仓库](https://github.com/Dalecuc/notionnext), 一些新功能会在其中测试
 
 ---
 
