@@ -107,6 +107,8 @@ export default function PostHeader({ post, siteInfo, isDarkMode }) {
               <div className='mr-2'>
                 <WordCount />
               </div>
+
+              {/* 发布日期 */}
               {post?.type !== 'Page' && (
                 <>
                   <Link
@@ -119,10 +121,11 @@ export default function PostHeader({ post, siteInfo, isDarkMode }) {
                 </>
               )}
 
-              <div className='pl-1 mr-2'>
+              {/* 最近修改日期, 不显示了 */}
+              {/* <div className='pl-1 mr-2'>
                 <i className='fa-regular fa-calendar-check'></i>{' '}
                 {post.lastEditedDay}
-              </div>
+              </div> */}
             </div>
 
             {/* 阅读统计 */}
