@@ -37,14 +37,14 @@ systemctl daemon-reload && systemctl restart docker
 拉取 [nextnotion 镜像](https://github.com/daleveral/nextnotion/pkgs/container/nextnotion), 体积约 200MB :
 
 ```shell
-docker pull ghcr.linkos.org/daleveral/nextnotion:main
+docker pull ghcr.io/daleveral/nextnotion:main
 ```
 
 <br/>
 
 镜像重命名 :
 ```shell
-docker tag ghcr.linkos.org/daleveral/nextnotion:main nextnotion:latest 
+docker tag ghcr.io/daleveral/nextnotion:main nextnotion:latest 
 ```
 
 ```shell
@@ -82,8 +82,8 @@ docker run --name nextnotion -d -p 3000:3000 -e NOTION_PAGE_ID=MY-ID-STR nextnot
     - 首页自定义的文字、标语、链接等
 - Artalk 使用最新版本的 js / css 引用
 - 文章里的所有链接都在新标签页打开, 而非当前标签页
-- 删去了部分主题, 保留下来 7 个
-- 基于 [NotionNext](https://docs.tangly1024.com/article/latest)  4.6 ~ 4.7 之间的版本, 会选择性地同步上游的更新
+- 删去了部分主题, 保留下来 6 个
+- 基于 [NotionNext](https://docs.tangly1024.com/article/latest)  4.6 ~ 4.8 之间的版本, 会选择性地同步上游的更新
 
 <br/>
 <br/>
